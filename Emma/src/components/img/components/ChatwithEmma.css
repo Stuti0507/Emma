@@ -1,0 +1,74 @@
+#chatBox
+{
+    width: 100vw;
+    background: linear-gradient(to bottom,rgb(74, 238, 202),rgb(47, 153, 240));
+    height: 100vh;
+}
+#chatter
+{
+    width: 100vw;
+    height: 40rem;
+    background-color: beige;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inpbox
+{
+  width: 90vw;
+  background-color: rgb(192, 250, 250);
+  height: 29rem;
+  border-radius: 1rem;
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius:0rem ;
+  box-shadow: inset 2px 2px 0px 0px cyan;
+}
+#emmapic
+{
+    position: absolute;
+    background-image: url("./img/emma.jpeg");
+    background-size: 20rem;
+    opacity: 0.2;
+    top:12rem;
+    left:33rem;
+    width: 20rem;
+    height: 20rem;
+}
+#inputtt
+{
+width: 90vw;
+height: 3rem;
+background-color: rgb(192, 250, 250);
+
+padding-left: 1rem;
+padding-right: 1rem;
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius:1rem ;
+}
+#inputtt input
+{
+width: 90%;
+height: 70%;
+border: none;
+border-top-left-radius: 1rem;
+border-bottom-left-radius: 1rem;
+padding-left: 1rem;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 1.2rem;
+}
+#inputtt button
+{
+    width: 10%;
+    height: 70%;
+    border: none;
+    padding: 0.3rem 1rem;
+    border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+color: azure;
+font-size: 1.2rem;
+background: linear-gradient(to right,rgb(20, 185, 190),rgb(5, 247, 174));
+
+
+}

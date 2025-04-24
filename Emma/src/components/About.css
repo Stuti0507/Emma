@@ -1,0 +1,90 @@
+#Aboutus
+{
+    width: 100vw;
+    height:80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    border-bottom: 2rem solid blue;
+}
+#aboutnav
+{
+    z-index: 40;
+}
+@keyframes side
+{
+    0%
+    {
+    transform: translateY(-1rem) translateX(2rem);
+    }
+    100%
+    {
+        transform: translateY(3rem)  translateX(-2rem);
+    }
+}
+#iconn
+{
+    border-radius:0% 100% 100% 0% / 100% 0% 100% 0%  ;
+    position: absolute;
+    width: 60rem;
+    height: 40rem;
+    background-color: rgb(108, 108, 231);
+    background: linear-gradient(45deg,blue,cyan);
+z-index: 5;
+    left: 0rem;
+}
+#emmma
+{
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    background: url("./img/emma-removebg-preview.png");
+    z-index: 6;
+    right: -12rem;
+    top: -10rem;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+}
+#a1
+{
+    z-index: 5;
+    font-size: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: fit-content;
+    position: relative;
+    top:12rem ;
+    right: 19rem;
+}
+#a11
+{
+    color: azure;
+}
+#intro
+{
+    z-index: 5;
+    color: rgb(237, 237, 253);
+    font-size: 1.9rem;
+    width: 40rem;
+    position: relative;
+    padding: 7rem 7rem;
+    border-radius: 34% 66% 33% 67% / 62% 32% 68% 38% ;
+    background: linear-gradient(45deg,blue,cyan);
+    top: 15rem;
+    left: 15rem;
+}
+#iconn1
+{
+    width: 35rem;
+    height: 40rem;
+    position: relative;
+    right: 19rem;
+    z-index: 2;
+    bottom:19rem;
+     background-image:url("./img/chatbot.gif") ;
+     background-repeat: no-repeat;
+     background-size: contain;
+
+}

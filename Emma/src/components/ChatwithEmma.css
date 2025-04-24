@@ -1,0 +1,119 @@
+#chatBox
+{
+    width: 100vw;
+    background-color: rgb(54, 54, 53);
+    height: 100vh;
+}
+#chatter
+{
+    width: 100vw;
+    height: 40rem;
+    background-color: rgb(54, 54, 53);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rev
+{
+    align-self: flex-end;
+    padding: 0.5rem 1rem;
+    color: azure;
+    margin-right: 4rem;
+    border-top-right-radius: 1rem;
+    background: linear-gradient(to right,rgb(20, 185, 190),rgb(5, 247, 174));
+cursor: pointer;
+}
+#inpbox
+{
+  width: 90vw;
+  background-color: rgb(46, 51, 51);
+  height: 29rem;
+  border-radius: 1rem;
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius:0rem ;
+  overflow:scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  box-shadow: inset 2px 2px 0px 0px rgb(25, 32, 32);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-top-right-radius: 0rem;
+}
+.textt
+{
+    color: azure;
+    font-size: 1.3rem;
+    padding: 1rem;
+    width: fit-content;
+    border: 1px solid rgb(52, 226, 226);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(61, 55, 55);
+
+}
+#user
+{
+ align-self: flex-end;
+ border-top-right-radius: 0rem;
+}
+#embot
+{
+border-top-left-radius:0rem ;
+}
+#emmapic
+{
+    position: absolute;
+    background-image: url("./img/emma-removebg-preview.png");
+    background-size: 20rem;
+    opacity: 0.1;
+    top:12rem;
+    left:33rem;
+    width: 20rem;
+    height: 20rem;
+}
+#inputtt
+{
+width: 90vw;
+height: 3rem;
+background-color: rgb(46, 51, 51);
+
+padding-left: 1rem;
+padding-right: 1rem;
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius:1rem ;
+box-shadow: inset -2px -2px 0px 0px black;
+}
+#inputtt input
+{
+width: 90%;
+height: 70%;
+border: none;
+border-top-left-radius: 1rem;
+border-bottom-left-radius: 1rem;
+padding-left: 1rem;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 1.2rem;
+}
+#inputtt input:focus
+{
+    outline: none;
+    border: none;
+}
+#inputtt button
+{
+    width: 10%;
+    height: 70%;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+color: azure;
+font-size: 1.2rem;
+background: linear-gradient(to right,rgb(20, 185, 190),rgb(5, 247, 174));
+
+
+}
