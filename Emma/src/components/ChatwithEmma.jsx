@@ -15,11 +15,7 @@ const ChatwithEmma = () => {
      const evbut=document.querySelector("#rev");
      const te=document.querySelector("#inpbox");
      const ipp=document.querySelector("#inputtt");
-     function just()
-     {
-      te.style.cssText="  justify-content: flex-end;";
-
-     }
+  
      function viewMode()
      {
        if(cond)
@@ -111,6 +107,7 @@ const ChatwithEmma = () => {
       async function sendddd(e) {
         if(e.key==='Enter')
         {
+          te.style.cssText="  justify-content: flex-end;";
 
         if (!text.trim()) return;
         
@@ -126,7 +123,7 @@ const ChatwithEmma = () => {
         try {
           // Format messages for Groq API
           const apiMessages = [
-            { role: "system", content: "You are a kind soul therapist who console people by understanding their emotions,make them happy,keeps the msg short. and use emoji also " },
+            { role: "system", content:   `${me.role}`},
             ...messages, // Include conversation history
             { role: "user", content: text }
           ];
