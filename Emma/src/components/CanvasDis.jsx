@@ -1,6 +1,6 @@
 import React from 'react'
 
-const canvasDis = () => {
+const CanvasDis = () => {
   return (
     <div>
        <svg viewBox="0 0 800 400" height="14rem"  xmlns="http://www.w3.org/2000/svg">
@@ -112,4 +112,4 @@ const canvasDis = () => {
   )
 }
 
-export default canvasDis
+export default CanvasDis
