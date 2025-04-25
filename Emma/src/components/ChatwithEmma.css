@@ -63,6 +63,7 @@ cursor: pointer;
 #embot
 {
 border-top-left-radius:0rem ;
+max-width: 60%;
 }
 #emmapic
 {
