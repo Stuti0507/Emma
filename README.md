@@ -28,9 +28,9 @@ The Codophilics
 ### Team Members:  
 - Pushkar Khattri(https://github.com/RaGaS958 ,Team Leader, Frontend & Integration)
 
+-  Stuti Shukla( https://github.com/Stuti0507 , Researcher,Frontend Developer, Graphic designer)
 - Ramya Rastogi(http://github.com/ramya-rastogi ,Content creater,presentation)
 - Shraddha Bajpai(https://github.com/Itsshraddha ,UI designer,Core Developer)
--  Stuti Shukla( https://github.com/Stuti0507 , Researcher,Frontend Developer, Graphic designer)
 
 
 ### Your Approach:  
