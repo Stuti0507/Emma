@@ -143,9 +143,4 @@ List improvements, extensions, or follow-up features:
 
 ---
 
-## 🏁 Final Words
 
-This hackathon journey helped us blend technology with human empathy.
-From late-night brainstorming to overcoming technical glitches, the experience was incredible and meaningful.
-Big shout-out to our mentors, organizers, and fellow participants who inspired us every step of the way!
----
