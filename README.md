@@ -30,7 +30,7 @@ The Codophilics
 
 - Ramya Rastogi(http://github.com/ramya-rastogi ,Content creater,presentation)
 - Shraddha Bajpai(https://github.com/Itsshraddha ,UI designer,Core Developer)
--  Stuti Shukla( https://github.com/Stuti0507 , Researcher,Graphic designer)
+-  Stuti Shukla( https://github.com/Stuti0507 , Researcher,Frontend Developer, Graphic designer)
 
 
 ### Your Approach:  
